@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <input type="text" placeholder="Digite um item" id="input">
+        <select name="categorias" id="categorias">
+            <option value="frutas" class="lista">Frutas</option>
+            <option value="laticinios" class="lista">Laticíonios</option>
+            <option value="congelados" class="lista">Congelados</option>
+            <option value="doces" class="lista">Doces</option>
+        </select>
+        <button class="enviar" type="submit">Adicionar</button>
+        <div class="listas">
+            <ul id="frutas">Frutas:</ul>
+            <ul id="laticinios">Laticíonios:</ul>
+            <ul id="congelados">Congelados:</ul>
+            <ul id="doces">Doces:</ul>
+
+        </div>
+
+    </section>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
