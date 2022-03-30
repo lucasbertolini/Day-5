@@ -2,6 +2,7 @@ let input = document.querySelector('#input');
 let categoria = document.querySelector('#categorias');
 
 document.querySelector('button').addEventListener('click', () => {
+    if(input == ' ') return
     let lista = {
         frutas: document.querySelector('#frutas'),
         laticinios: document.querySelector('#laticinios'),
